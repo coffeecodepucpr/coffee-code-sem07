@@ -1,0 +1,12 @@
+# Edite com:  crontab -e
+#
+# minuto  hora  dia-do-mês  mês  dia-da-semana   comando
+#
+# Todo dia, às 7h da manhã:
+0 7 * * *     /caminho/absoluto/para/executar_pipeline.sh
+
+# De segunda a sexta, às 6h30:
+# 30 6 * * 1-5  /caminho/absoluto/para/executar_pipeline.sh
+
+# A cada 15 minutos (só para testar o agendamento, nunca em um site real):
+# */15 * * * *  /caminho/absoluto/para/executar_pipeline.sh

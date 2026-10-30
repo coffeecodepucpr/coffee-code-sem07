@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1300 640" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1300" height="640" fill="#E6D6C1"/>
+
+<text x="650.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >UPSERT: GRAVAR SEM DUPLICAR, E SABER O QUE MUDOU</text>
+<text x="210.0" y="98" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="middle" >O BANCO ANTES</text>
+<rect x="40" y="110" width="340" height="32" fill="#7A553A"/>
+<text x="86" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >id</text>
+<text x="210" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >título</text>
+<text x="332" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >salário</text>
+<rect x="40" y="142" width="340" height="44" fill="#D6BFA6"/>
+<text x="86" y="170" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v1</text>
+<text x="210" y="170" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Dev Python</text>
+<text x="332" y="170" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 9.000</text>
+<rect x="40" y="186" width="340" height="44" fill="#F3E9D7"/>
+<text x="86" y="214" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v2</text>
+<text x="210" y="214" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Analista</text>
+<text x="332" y="214" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 7.000</text>
+<rect x="40" y="230" width="340" height="44" fill="#D6BFA6"/>
+<text x="86" y="258" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v4</text>
+<text x="210" y="258" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Suporte</text>
+<text x="332" y="258" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 3.000</text>
+<text x="650.0" y="98" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="middle" >A COLETA DE HOJE</text>
+<rect x="480" y="110" width="340" height="32" fill="#7A553A"/>
+<text x="526" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >id</text>
+<text x="650" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >título</text>
+<text x="772" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >salário</text>
+<rect x="480" y="142" width="340" height="44" fill="#D6BFA6"/>
+<text x="526" y="170" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v1</text>
+<text x="650" y="170" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Dev Python</text>
+<text x="772" y="170" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 9.000</text>
+<rect x="480" y="186" width="340" height="44" fill="#F3E9D7"/>
+<text x="526" y="214" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v2</text>
+<text x="650" y="214" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Analista</text>
+<text x="772" y="214" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 8.000</text>
+<rect x="480" y="230" width="340" height="44" fill="#D6BFA6"/>
+<text x="526" y="258" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v3</text>
+<text x="650" y="258" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >QA</text>
+<text x="772" y="258" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 5.000</text>
+<text x="1090.0" y="98" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="middle" >O BANCO DEPOIS</text>
+<rect x="920" y="110" width="340" height="32" fill="#7A553A"/>
+<text x="966" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >id</text>
+<text x="1090" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >título</text>
+<text x="1212" y="131" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3E9D7" text-anchor="middle" >salário</text>
+<rect x="920" y="142" width="340" height="44" fill="#D6BFA6"/>
+<text x="966" y="170" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v1</text>
+<text x="1090" y="170" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Dev Python</text>
+<text x="1212" y="170" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 9.000</text>
+<rect x="920" y="186" width="340" height="44" fill="#F3E9D7"/>
+<text x="966" y="214" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v2</text>
+<text x="1090" y="214" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Analista</text>
+<text x="1212" y="214" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 8.000</text>
+<rect x="920" y="230" width="340" height="44" fill="#D6BFA6"/>
+<text x="966" y="258" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v3</text>
+<text x="1090" y="258" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >QA</text>
+<text x="1212" y="258" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 5.000</text>
+<rect x="920" y="274" width="340" height="44" fill="#F3E9D7"/>
+<text x="966" y="302" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >v4</text>
+<text x="1090" y="302" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Suporte (inativa)</text>
+<text x="1212" y="302" font-family="None" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >R$ 3.000</text>
+<line x1="386" y1="200" x2="474" y2="200" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="826" y1="200" x2="914" y2="200" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1090" y="340" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="1" font-weight="600" fill="#3B2A22" text-anchor="middle" ></text>
+<rect x="40" y="360" width="1220" height="230" rx="10" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="650" y="392" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="middle" >O QUE ACONTECE COM CADA UM</text>
+<text x="100" y="426" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >v1</text>
+<rect x="150" y="404" width="150" height="32" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="225" y="426" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >igual</text>
+<text x="330" y="426" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#3B2A22" text-anchor="start" >mesmo conteúdo: só atualiza o visto_em</text>
+<text x="100" y="466" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >v2</text>
+<rect x="150" y="444" width="150" height="32" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="225" y="466" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >atualizada</text>
+<text x="330" y="466" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#3B2A22" text-anchor="start" >o conteúdo mudou: UPDATE na mesma linha</text>
+<text x="100" y="506" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >v3</text>
+<rect x="150" y="484" width="150" height="32" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="225" y="506" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >nova</text>
+<text x="330" y="506" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#3B2A22" text-anchor="start" >não existia: INSERT</text>
+<text x="100" y="546" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >v4</text>
+<rect x="150" y="524" width="150" height="32" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="225" y="546" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >inativada</text>
+<text x="330" y="546" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#3B2A22" text-anchor="start" >não apareceu na coleta COMPLETA: ativa = 0, sem apagar</text>
+<text x="650" y="612" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >a chave única (fonte, id_externo) impede duplicatas, e o hash do conteúdo mostra se algo mudou</text>
+</svg>

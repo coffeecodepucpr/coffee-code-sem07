@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1240 760" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1240" height="760" fill="#E6D6C1"/>
+
+<text x="620.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >ANTES DE COLETAR: AS PERGUNTAS, NESTA ORDEM</text>
+<rect x="40" y="62" width="640" height="80" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="360.0" y="98" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >1. O site oferece uma API, um feed ou um arquivo de dados?</text>
+<line x1="684" y1="102.0" x2="734" y2="102.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710.0" y="90.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >sim</text>
+<rect x="740" y="62" width="460" height="80" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="970.0" y="90" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Use isso. É mais estável, mais leve e é o caminho</text>
+<text x="970.0" y="108" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >que o site quer</text>
+<line x1="360.0" y1="144" x2="360.0" y2="178" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="376.0" y="166.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >não</text>
+<rect x="40" y="180" width="640" height="80" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="360.0" y="216" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >2. Os termos de uso permitem a coleta automatizada?</text>
+<line x1="684" y1="220.0" x2="734" y2="220.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710.0" y="208.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >não</text>
+<rect x="740" y="180" width="460" height="80" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="970.0" y="208" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Pare. Peça permissão por escrito, ou escolha outra</text>
+<text x="970.0" y="226" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >fonte</text>
+<line x1="360.0" y1="262" x2="360.0" y2="296" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="376.0" y="284.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >siga</text>
+<rect x="40" y="298" width="640" height="80" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="360.0" y="334" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >3. O robots.txt permite este caminho para o seu User-Agent?</text>
+<line x1="684" y1="338.0" x2="734" y2="338.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710.0" y="326.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >não</text>
+<rect x="740" y="298" width="460" height="80" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="970.0" y="326" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Pare neste caminho. Ele não é uma tranca, mas é um</text>
+<text x="970.0" y="344" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >pedido do dono</text>
+<line x1="360.0" y1="380" x2="360.0" y2="414" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="376.0" y="402.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >siga</text>
+<rect x="40" y="416" width="640" height="80" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="360.0" y="452" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >4. O robots.txt pede uma espera (Crawl-delay)?</text>
+<line x1="684" y1="456.0" x2="734" y2="456.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710.0" y="444.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >sim</text>
+<rect x="740" y="416" width="460" height="80" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="970.0" y="444" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Respeite: espere esse tempo entre os pedidos, e use</text>
+<text x="970.0" y="462" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >cache</text>
+<line x1="360.0" y1="498" x2="360.0" y2="532" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="376.0" y="520.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >siga</text>
+<rect x="40" y="534" width="640" height="80" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="360.0" y="570" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >5. A página tem dados pessoais (nome, e-mail, telefone)?</text>
+<line x1="684" y1="574.0" x2="734" y2="574.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710.0" y="562.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >sim</text>
+<rect x="740" y="534" width="460" height="80" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="970.0" y="562" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Colete só o necessário, ou nada: dados pessoais têm</text>
+<text x="970.0" y="580" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >proteção legal (LGPD)</text>
+<line x1="360.0" y1="616" x2="360.0" y2="650" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="652" width="640" height="96" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="360.0" y="686" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >6. Colete com boas maneiras</text>
+<text x="360.0" y="714" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#7A553A" text-anchor="middle" >User-Agent com contato, pedidos devagar, timeout, poucas páginas, sem burlar proteções</text>
+</svg>

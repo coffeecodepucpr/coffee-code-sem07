@@ -1,0 +1,6 @@
+requests>=2.34,<3
+beautifulsoup4>=4.15,<5
+lxml>=6.1,<7
+httpx>=0.28,<1
+playwright>=1.50
+selenium>=4.30,<5

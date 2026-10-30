@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1280" height="560" fill="#E6D6C1"/>
+
+<text x="640.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >O MESMO HTML QUEBRADO, DOIS PARSERS, DUAS ÁRVORES</text>
+<rect x="40" y="70" width="380" height="184" rx="10" fill="#3B2A22" stroke="#7A553A" stroke-width="2"/>
+<text x="56" y="96" font-family="Consolas, monospace" font-size="13" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">&lt;ul&gt;</text>
+<text x="56" y="122" font-family="Consolas, monospace" font-size="13" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">  &lt;li&gt;Python</text>
+<text x="56" y="148" font-family="Consolas, monospace" font-size="13" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">  &lt;li&gt;SQL</text>
+<text x="56" y="174" font-family="Consolas, monospace" font-size="13" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">&lt;/ul&gt;</text>
+<text x="56" y="200" font-family="Consolas, monospace" font-size="13" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve"></text>
+<text x="56" y="226" font-family="Consolas, monospace" font-size="13" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">(os li não foram fechados)</text>
+<line x1="424" y1="130" x2="520" y2="130" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="472" y="116" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#7A553A" text-anchor="middle" >lido por</text>
+<rect x="470" y="70" width="340" height="52" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="640" y="104" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#3B2A22" text-anchor="middle" >html.parser</text>
+<rect x="470" y="150" width="340" height="300" rx="12" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<rect x="510" y="172" width="260" height="40" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="640" y="198" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >ul</text>
+<rect x="540" y="240" width="200" height="150" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="640" y="264" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >li  (Python)</text>
+<rect x="574" y="296" width="132" height="66" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="640" y="324" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >li</text>
+<text x="640" y="346" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#7A553A" text-anchor="middle" >(SQL)</text>
+<text x="640" y="420" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >2 li, um DENTRO do outro</text>
+<rect x="840" y="70" width="340" height="52" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="1010" y="104" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#3B2A22" text-anchor="middle" >lxml</text>
+<rect x="840" y="150" width="340" height="300" rx="12" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<rect x="880" y="172" width="260" height="40" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="1010" y="198" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >ul</text>
+<rect x="892" y="250" width="108" height="70" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="946" y="280" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >li</text>
+<text x="946" y="304" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#3B2A22" text-anchor="middle" >(Python)</text>
+<rect x="1020" y="250" width="108" height="70" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="1074" y="280" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >li</text>
+<text x="1074" y="304" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#3B2A22" text-anchor="middle" >(SQL)</text>
+<text x="1010" y="420" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >2 li, IRMÃOS</text>
+<rect x="40" y="480" width="1200" height="60" rx="10" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="640.0" y="506" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >um seletor como  li &gt; li  acha algo em uma árvore e nada na outra</text>
+<text x="640.0" y="528" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >escolha UM parser, escreva-o sempre no código e use o mesmo em todo o projeto</text>
+</svg>

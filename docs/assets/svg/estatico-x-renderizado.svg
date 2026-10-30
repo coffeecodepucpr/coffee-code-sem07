@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1300 620" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1300" height="620" fill="#E6D6C1"/>
+
+<text x="650.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >PÁGINA ESTÁTICA X PÁGINA MONTADA POR JAVASCRIPT</text>
+<text x="40" y="88" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="start" >ESTÁTICA (os dados já estão no HTML)</text>
+<rect x="40" y="100" width="285" height="108" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="182.5" y="134" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >1. O servidor entrega</text>
+<text x="182.5" y="160" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >um HTML com as vagas dentro dos</text>
+<text x="182.5" y="178" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >&lt;article&gt;</text>
+<line x1="328" y1="154.0" x2="348" y2="154.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="351" y="100" width="285" height="108" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="493.5" y="134" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >2. O requests recebe</text>
+<text x="493.5" y="160" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >o mesmo HTML que o navegador recebeu</text>
+<line x1="639" y1="154.0" x2="659" y2="154.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="662" y="100" width="285" height="108" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="804.5" y="134" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >3. O BeautifulSoup lê</text>
+<text x="804.5" y="160" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >select("article.vaga"): 8 cartões</text>
+<line x1="950" y1="154.0" x2="970" y2="154.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="973" y="100" width="285" height="108" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="1115.5" y="134" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Resultado</text>
+<text x="1115.5" y="160" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >funciona com requests e</text>
+<text x="1115.5" y="178" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >BeautifulSoup</text>
+<text x="40" y="278" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="start" >MONTADA POR JAVASCRIPT (os dados chegam depois)</text>
+<rect x="40" y="290" width="285" height="108" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="182.5" y="324" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >1. O servidor entrega</text>
+<text x="182.5" y="350" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >um HTML quase vazio: "Carregando..."</text>
+<text x="182.5" y="368" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >e um &lt;script&gt;</text>
+<line x1="328" y1="344.0" x2="348" y2="344.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="351" y="290" width="285" height="108" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="493.5" y="324" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >2. O navegador executa</text>
+<text x="493.5" y="350" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >o script, que pede /api/vagas e</text>
+<text x="493.5" y="368" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >monta os cartões</text>
+<line x1="639" y1="344.0" x2="659" y2="344.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="662" y="290" width="285" height="108" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="804.5" y="324" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >3. O requests NÃO executa</text>
+<text x="804.5" y="350" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >ele só vê o esqueleto: 0 cartões</text>
+<line x1="950" y1="344.0" x2="970" y2="344.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="973" y="290" width="285" height="108" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="1115.5" y="324" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Soluções</text>
+<text x="1115.5" y="350" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Playwright (espera o JS) ou chamar a</text>
+<text x="1115.5" y="368" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >API direto</text>
+<rect x="40" y="460" width="1220" height="120" rx="10" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="650" y="492" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#7A553A" text-anchor="middle" >COMO DESCOBRIR QUAL É O CASO</text>
+<text x="650" y="520" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >compare o que o navegador mostra com o que o requests recebeu: len(sopa.select("article.vaga"))</text>
+<text x="650" y="550" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >se o navegador mostra 8 vagas e o requests acha 0, a página é montada por JavaScript</text>
+</svg>

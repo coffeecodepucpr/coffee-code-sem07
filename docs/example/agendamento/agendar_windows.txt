@@ -1,0 +1,15 @@
+Agendador de Tarefas do Windows (NAO TESTADO: o material foi produzido em Linux).
+
+Pelo terminal (Prompt de Comando), todo dia as 07:00:
+
+  schtasks /Create /SC DAILY /ST 07:00 /TN "ColetaMuralTech" ^
+           /TR "C:\Users\voce\projeto-coleta\agendamento\executar_pipeline.bat"
+
+Se o caminho do .bat tiver ESPACOS, o valor de /TR precisa de aspas internas
+(escapadas com barra invertida) e o comando deve ser conferido no seu sistema.
+
+Para conferir, rodar agora e remover:
+
+  schtasks /Query /TN "ColetaMuralTech"
+  schtasks /Run /TN "ColetaMuralTech"
+  schtasks /Delete /TN "ColetaMuralTech" /F
